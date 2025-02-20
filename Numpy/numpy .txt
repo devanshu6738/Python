@@ -1,0 +1,3 @@
+Diffrence Between Numpy array and list in the python
+1. Data type Storage
+2. Importing module
