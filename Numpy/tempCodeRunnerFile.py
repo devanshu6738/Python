@@ -1,1 +1,2 @@
-3,3
+
+print(np.sort(arr2,axis=0))
