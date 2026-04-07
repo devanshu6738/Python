@@ -51,8 +51,9 @@ print(id(c))
 e=np.copy(c)
 print(id(e))
 
-# Read and write data from a file
-
+# # Read and write data from a file
+# data=np.loadtxt("data.txt",delimiter=",")
+# print(data)
 
 
 # binary file
@@ -69,3 +70,20 @@ print(data1["arr1"])
 print(data1["arr2"])
 
 # np.fromfunction()
+
+
+
+
+def f(i):
+    return i*2
+
+arr=np.fromfunction(f,(5,),dtype=int)
+print(arr)
+
+# lambda function
+
+arr=np.fromfunction(lambda x:x*1, (3,), dtype=int)
+print(arr)
+
+arr=np.fromfunction(lambda x,y:x+y,(3,3),dtype=int)
+print(arr)
